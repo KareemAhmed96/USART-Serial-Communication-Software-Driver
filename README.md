@@ -27,10 +27,10 @@ int main(){
 		 * 					FALLING_XCK_EDGE }
 		 */
 
-	//Example Initialization (Pointer to Configuration Structure) 
+	// Example Initialization (Pointer to Configuration Structure) 
 	UART_ConfigType Config_Ptr = {ASYNC, DISABLED, ONE_BIT, EIGHT_BIT, RISING_XCK_EDGE};
 	
-	//Initialization Function
+	// Initialization Function
 	UART_init(&Config_Ptr);
   
 }
